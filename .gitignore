@@ -18,5 +18,12 @@ buildNumber.properties
 ### VisualStudioCode ###
 .vscode/*
 
+# Ignore user-specific AI/development tool artifacts
+.cursor/
+.claude/
+.mcp.json
+.cursor*
+claude*
+
 ### macOS ###
 .DS_Store
