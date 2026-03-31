@@ -1,0 +1,41 @@
+{
+  "name": "${project.name}",
+  "version": "${project.version}",
+  "description": "${project.description}",
+  "dependencies": [
+    {
+      "name": "app-platform-minimal",
+      "version": "^2.1.0",
+      "preRelease": "false"
+    }
+  ],
+  "modules": [
+    {
+      "name": "mod-data-import",
+      "version": "latest",
+      "preRelease": "false"
+    },
+    {
+      "name": "mod-source-record-manager",
+      "version": "latest",
+      "preRelease": "false"
+    },
+    {
+      "name": "mod-di-converter-storage",
+      "version": "latest",
+      "preRelease": "false"
+    }
+  ],
+  "uiModules": [
+    {
+      "name": "folio_data-import",
+      "version": "latest",
+      "preRelease": "false"
+    },
+    {
+      "name": "folio_plugin-find-import-profile",
+      "version": "latest",
+      "preRelease": "false"
+    }
+  ]
+}
