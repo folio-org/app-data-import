@@ -4,8 +4,8 @@ update_config:
   labels:
     - version-update
   pr_reviewers:
-    - folio-org/folijet
     - folio-org/kitfox
+    - folio-org/folijet
 
   ruleset:
     enabled: true
