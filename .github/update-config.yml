@@ -27,7 +27,7 @@ update_config:
 
 branches:
   - snapshot:
-      enabled: false
+      enabled: true
       need_pr: false
       pre_release: "only"
       descriptor_build_offset: "100200000000000"
