@@ -1,16 +1,16 @@
 {
-  "id" : "app-data-import-1.1.0-SNAPSHOT.100200000003003",
+  "id" : "app-data-import-1.1.0-SNAPSHOT.100200000003017",
   "name" : "app-data-import",
-  "version" : "1.1.0-SNAPSHOT.100200000003003",
+  "version" : "1.1.0-SNAPSHOT.100200000003017",
   "description" : "Data import application",
   "modules" : [ {
+    "id" : "mod-source-record-manager-4.1.0-SNAPSHOT.2188",
+    "name" : "mod-source-record-manager",
+    "version" : "4.1.0-SNAPSHOT.2188"
+  }, {
     "id" : "mod-data-import-3.5.0-SNAPSHOT.2015",
     "name" : "mod-data-import",
     "version" : "3.5.0-SNAPSHOT.2015"
-  }, {
-    "id" : "mod-source-record-manager-4.1.0-SNAPSHOT.2168",
-    "name" : "mod-source-record-manager",
-    "version" : "4.1.0-SNAPSHOT.2168"
   }, {
     "id" : "mod-di-converter-storage-2.6.0-SNAPSHOT.2008",
     "name" : "mod-di-converter-storage",
@@ -393,7 +393,7 @@
       }
     }
   }, {
-    "id" : "mod-source-record-manager-4.1.0-SNAPSHOT.2168",
+    "id" : "mod-source-record-manager-4.1.0-SNAPSHOT.2188",
     "name" : "Source Record Manager Module",
     "requires" : [ {
       "id" : "instance-date-types",
@@ -772,7 +772,7 @@
       }
     },
     "launchDescriptor" : {
-      "dockerImage" : "folioci/mod-source-record-manager:4.1.0-SNAPSHOT.2168",
+      "dockerImage" : "folioci/mod-source-record-manager:4.1.0-SNAPSHOT.2188",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
