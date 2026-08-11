@@ -1,25 +1,25 @@
 {
-  "id" : "app-data-import-1.1.0-SNAPSHOT.100200000003285",
+  "id" : "app-data-import-1.1.0-SNAPSHOT.100200000003306",
   "name" : "app-data-import",
-  "version" : "1.1.0-SNAPSHOT.100200000003285",
+  "version" : "1.1.0-SNAPSHOT.100200000003306",
   "description" : "Data import application",
   "modules" : [ {
     "id" : "mod-data-import-3.5.0-SNAPSHOT.2025",
     "name" : "mod-data-import",
     "version" : "3.5.0-SNAPSHOT.2025"
   }, {
-    "id" : "mod-di-converter-storage-2.6.0-SNAPSHOT.2081",
-    "name" : "mod-di-converter-storage",
-    "version" : "2.6.0-SNAPSHOT.2081"
-  }, {
     "id" : "mod-source-record-manager-4.1.0-SNAPSHOT.2216",
     "name" : "mod-source-record-manager",
     "version" : "4.1.0-SNAPSHOT.2216"
+  }, {
+    "id" : "mod-di-converter-storage-2.6.0-SNAPSHOT.2081",
+    "name" : "mod-di-converter-storage",
+    "version" : "2.6.0-SNAPSHOT.2081"
   } ],
   "uiModules" : [ {
-    "id" : "folio_data-import-11.0.1099000000000359",
+    "id" : "folio_data-import-11.0.1099000000000364",
     "name" : "folio_data-import",
-    "version" : "11.0.1099000000000359"
+    "version" : "11.0.1099000000000364"
   }, {
     "id" : "folio_plugin-find-import-profile-10.0.1099000000000108",
     "name" : "folio_plugin-find-import-profile",
@@ -1268,7 +1268,7 @@
     "replaces" : [ "mod-data-import-converter-storage" ]
   } ],
   "uiModuleDescriptors" : [ {
-    "id" : "folio_data-import-11.0.1099000000000359",
+    "id" : "folio_data-import-11.0.1099000000000364",
     "name" : "Data Import manager",
     "requires" : [ {
       "id" : "data-import",
