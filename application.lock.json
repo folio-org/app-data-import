@@ -1,12 +1,12 @@
 {
-  "id" : "app-data-import-1.1.0-SNAPSHOT.100200000003494",
+  "id" : "app-data-import-1.1.0-SNAPSHOT.100200000003499",
   "name" : "app-data-import",
-  "version" : "1.1.0-SNAPSHOT.100200000003494",
+  "version" : "1.1.0-SNAPSHOT.100200000003499",
   "description" : "Data import application",
   "modules" : [ {
-    "id" : "mod-di-converter-storage-2.6.0-SNAPSHOT.2097",
+    "id" : "mod-di-converter-storage-2.6.0-SNAPSHOT.2100",
     "name" : "mod-di-converter-storage",
-    "version" : "2.6.0-SNAPSHOT.2097"
+    "version" : "2.6.0-SNAPSHOT.2100"
   }, {
     "id" : "mod-data-import-3.5.0-SNAPSHOT.2028",
     "name" : "mod-data-import",
@@ -826,7 +826,7 @@
       }
     }
   }, {
-    "id" : "mod-di-converter-storage-2.6.0-SNAPSHOT.2097",
+    "id" : "mod-di-converter-storage-2.6.0-SNAPSHOT.2100",
     "name" : "Data Import Converter Storage",
     "requires" : [ {
       "id" : "users",
@@ -1224,7 +1224,7 @@
       "visible" : false
     } ],
     "launchDescriptor" : {
-      "dockerImage" : "folioci/mod-di-converter-storage:2.6.0-SNAPSHOT.2097",
+      "dockerImage" : "folioci/mod-di-converter-storage:2.6.0-SNAPSHOT.2100",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
