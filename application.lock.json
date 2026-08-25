@@ -1,20 +1,20 @@
 {
-  "id" : "app-data-import-1.1.0-SNAPSHOT.100200000003735",
+  "id" : "app-data-import-1.1.0-SNAPSHOT.100200000003736",
   "name" : "app-data-import",
-  "version" : "1.1.0-SNAPSHOT.100200000003735",
+  "version" : "1.1.0-SNAPSHOT.100200000003736",
   "description" : "Data import application",
   "modules" : [ {
+    "id" : "mod-source-record-manager-4.1.0-SNAPSHOT.2236",
+    "name" : "mod-source-record-manager",
+    "version" : "4.1.0-SNAPSHOT.2236"
+  }, {
+    "id" : "mod-di-converter-storage-2.6.0-SNAPSHOT.2103",
+    "name" : "mod-di-converter-storage",
+    "version" : "2.6.0-SNAPSHOT.2103"
+  }, {
     "id" : "mod-data-import-3.5.0-SNAPSHOT.2043",
     "name" : "mod-data-import",
     "version" : "3.5.0-SNAPSHOT.2043"
-  }, {
-    "id" : "mod-source-record-manager-4.1.0-SNAPSHOT.2232",
-    "name" : "mod-source-record-manager",
-    "version" : "4.1.0-SNAPSHOT.2232"
-  }, {
-    "id" : "mod-di-converter-storage-2.6.0-SNAPSHOT.2100",
-    "name" : "mod-di-converter-storage",
-    "version" : "2.6.0-SNAPSHOT.2100"
   } ],
   "uiModules" : [ {
     "id" : "folio_data-import-11.0.1099000000000377",
@@ -393,7 +393,7 @@
       }
     }
   }, {
-    "id" : "mod-source-record-manager-4.1.0-SNAPSHOT.2232",
+    "id" : "mod-source-record-manager-4.1.0-SNAPSHOT.2236",
     "name" : "Source Record Manager Module",
     "requires" : [ {
       "id" : "instance-date-types",
@@ -772,7 +772,7 @@
       }
     },
     "launchDescriptor" : {
-      "dockerImage" : "folioci/mod-source-record-manager:4.1.0-SNAPSHOT.2232",
+      "dockerImage" : "folioci/mod-source-record-manager:4.1.0-SNAPSHOT.2236",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
@@ -826,7 +826,7 @@
       }
     }
   }, {
-    "id" : "mod-di-converter-storage-2.6.0-SNAPSHOT.2100",
+    "id" : "mod-di-converter-storage-2.6.0-SNAPSHOT.2103",
     "name" : "Data Import Converter Storage",
     "requires" : [ {
       "id" : "users",
@@ -1224,7 +1224,7 @@
       "visible" : false
     } ],
     "launchDescriptor" : {
-      "dockerImage" : "folioci/mod-di-converter-storage:2.6.0-SNAPSHOT.2100",
+      "dockerImage" : "folioci/mod-di-converter-storage:2.6.0-SNAPSHOT.2103",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
