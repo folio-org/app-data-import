@@ -1,16 +1,16 @@
 {
-  "id" : "app-data-import-1.1.0-SNAPSHOT.100200000003502",
+  "id" : "app-data-import-1.1.0-SNAPSHOT.100200000003735",
   "name" : "app-data-import",
-  "version" : "1.1.0-SNAPSHOT.100200000003502",
+  "version" : "1.1.0-SNAPSHOT.100200000003735",
   "description" : "Data import application",
   "modules" : [ {
+    "id" : "mod-data-import-3.5.0-SNAPSHOT.2043",
+    "name" : "mod-data-import",
+    "version" : "3.5.0-SNAPSHOT.2043"
+  }, {
     "id" : "mod-source-record-manager-4.1.0-SNAPSHOT.2232",
     "name" : "mod-source-record-manager",
     "version" : "4.1.0-SNAPSHOT.2232"
-  }, {
-    "id" : "mod-data-import-3.5.0-SNAPSHOT.2031",
-    "name" : "mod-data-import",
-    "version" : "3.5.0-SNAPSHOT.2031"
   }, {
     "id" : "mod-di-converter-storage-2.6.0-SNAPSHOT.2100",
     "name" : "mod-di-converter-storage",
@@ -43,7 +43,7 @@
     "preRelease" : "only"
   } ],
   "moduleDescriptors" : [ {
-    "id" : "mod-data-import-3.5.0-SNAPSHOT.2031",
+    "id" : "mod-data-import-3.5.0-SNAPSHOT.2043",
     "name" : "Data Import Module",
     "requires" : [ {
       "id" : "source-manager-job-executions",
@@ -276,7 +276,7 @@
       "visible" : false
     } ],
     "launchDescriptor" : {
-      "dockerImage" : "folioci/mod-data-import:3.5.0-SNAPSHOT.2031",
+      "dockerImage" : "folioci/mod-data-import:3.5.0-SNAPSHOT.2043",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
