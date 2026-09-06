@@ -1,16 +1,16 @@
 {
-  "id" : "app-data-import-1.1.0-SNAPSHOT.100200000003795",
+  "id" : "app-data-import-1.1.0-SNAPSHOT.100200000003830",
   "name" : "app-data-import",
-  "version" : "1.1.0-SNAPSHOT.100200000003795",
+  "version" : "1.1.0-SNAPSHOT.100200000003830",
   "description" : "Data import application",
   "modules" : [ {
-    "id" : "mod-di-converter-storage-2.6.0-SNAPSHOT.2109",
-    "name" : "mod-di-converter-storage",
-    "version" : "2.6.0-SNAPSHOT.2109"
-  }, {
-    "id" : "mod-data-import-3.5.0-SNAPSHOT.2046",
+    "id" : "mod-data-import-3.5.0-SNAPSHOT.2049",
     "name" : "mod-data-import",
-    "version" : "3.5.0-SNAPSHOT.2046"
+    "version" : "3.5.0-SNAPSHOT.2049"
+  }, {
+    "id" : "mod-di-converter-storage-2.6.0-SNAPSHOT.2112",
+    "name" : "mod-di-converter-storage",
+    "version" : "2.6.0-SNAPSHOT.2112"
   }, {
     "id" : "mod-source-record-manager-4.1.0-SNAPSHOT.2241",
     "name" : "mod-source-record-manager",
@@ -43,7 +43,7 @@
     "preRelease" : "only"
   } ],
   "moduleDescriptors" : [ {
-    "id" : "mod-data-import-3.5.0-SNAPSHOT.2046",
+    "id" : "mod-data-import-3.5.0-SNAPSHOT.2049",
     "name" : "Data Import Module",
     "requires" : [ {
       "id" : "source-manager-job-executions",
@@ -276,7 +276,7 @@
       "visible" : false
     } ],
     "launchDescriptor" : {
-      "dockerImage" : "folioci/mod-data-import:3.5.0-SNAPSHOT.2046",
+      "dockerImage" : "folioci/mod-data-import:3.5.0-SNAPSHOT.2049",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
@@ -826,7 +826,7 @@
       }
     }
   }, {
-    "id" : "mod-di-converter-storage-2.6.0-SNAPSHOT.2109",
+    "id" : "mod-di-converter-storage-2.6.0-SNAPSHOT.2112",
     "name" : "Data Import Converter Storage",
     "requires" : [ {
       "id" : "users",
@@ -1224,7 +1224,7 @@
       "visible" : false
     } ],
     "launchDescriptor" : {
-      "dockerImage" : "folioci/mod-di-converter-storage:2.6.0-SNAPSHOT.2109",
+      "dockerImage" : "folioci/mod-di-converter-storage:2.6.0-SNAPSHOT.2112",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
