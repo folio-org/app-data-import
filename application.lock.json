@@ -1,25 +1,25 @@
 {
-  "id" : "app-data-import-1.1.0-SNAPSHOT.100200000003948",
+  "id" : "app-data-import-1.1.0-SNAPSHOT.100200000003953",
   "name" : "app-data-import",
-  "version" : "1.1.0-SNAPSHOT.100200000003948",
+  "version" : "1.1.0-SNAPSHOT.100200000003953",
   "description" : "Data import application",
   "modules" : [ {
-    "id" : "mod-source-record-manager-4.1.0-SNAPSHOT.2251",
-    "name" : "mod-source-record-manager",
-    "version" : "4.1.0-SNAPSHOT.2251"
+    "id" : "mod-di-converter-storage-2.6.0-SNAPSHOT.2143",
+    "name" : "mod-di-converter-storage",
+    "version" : "2.6.0-SNAPSHOT.2143"
   }, {
     "id" : "mod-data-import-3.5.0-SNAPSHOT.2054",
     "name" : "mod-data-import",
     "version" : "3.5.0-SNAPSHOT.2054"
   }, {
-    "id" : "mod-di-converter-storage-2.6.0-SNAPSHOT.2135",
-    "name" : "mod-di-converter-storage",
-    "version" : "2.6.0-SNAPSHOT.2135"
+    "id" : "mod-source-record-manager-4.1.0-SNAPSHOT.2251",
+    "name" : "mod-source-record-manager",
+    "version" : "4.1.0-SNAPSHOT.2251"
   } ],
   "uiModules" : [ {
-    "id" : "folio_data-import-11.0.1099000000000413",
+    "id" : "folio_data-import-11.0.1099000000000418",
     "name" : "folio_data-import",
-    "version" : "11.0.1099000000000413"
+    "version" : "11.0.1099000000000418"
   }, {
     "id" : "folio_plugin-find-import-profile-10.0.1099000000000108",
     "name" : "folio_plugin-find-import-profile",
@@ -826,7 +826,7 @@
       }
     }
   }, {
-    "id" : "mod-di-converter-storage-2.6.0-SNAPSHOT.2135",
+    "id" : "mod-di-converter-storage-2.6.0-SNAPSHOT.2143",
     "name" : "Data Import Converter Storage",
     "requires" : [ {
       "id" : "users",
@@ -1224,7 +1224,7 @@
       "visible" : false
     } ],
     "launchDescriptor" : {
-      "dockerImage" : "folioci/mod-di-converter-storage:2.6.0-SNAPSHOT.2135",
+      "dockerImage" : "folioci/mod-di-converter-storage:2.6.0-SNAPSHOT.2143",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
@@ -1268,7 +1268,7 @@
     "replaces" : [ "mod-data-import-converter-storage" ]
   } ],
   "uiModuleDescriptors" : [ {
-    "id" : "folio_data-import-11.0.1099000000000413",
+    "id" : "folio_data-import-11.0.1099000000000418",
     "name" : "Data Import manager",
     "requires" : [ {
       "id" : "data-import",
