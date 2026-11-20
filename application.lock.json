@@ -1,7 +1,7 @@
 {
-  "id" : "app-data-import-1.1.0-SNAPSHOT.100200000004203",
+  "id" : "app-data-import-1.1.0-SNAPSHOT.100200000004217",
   "name" : "app-data-import",
-  "version" : "1.1.0-SNAPSHOT.100200000004203",
+  "version" : "1.1.0-SNAPSHOT.100200000004217",
   "description" : "Data import application",
   "modules" : [ {
     "id" : "mod-data-import-3.5.0-SNAPSHOT.2078",
@@ -17,9 +17,9 @@
     "version" : "2.6.0-SNAPSHOT.2180"
   } ],
   "uiModules" : [ {
-    "id" : "folio_data-import-11.0.1099000000000418",
+    "id" : "folio_data-import-11.0.1099000000000429",
     "name" : "folio_data-import",
-    "version" : "11.0.1099000000000418"
+    "version" : "11.0.1099000000000429"
   }, {
     "id" : "folio_plugin-find-import-profile-10.0.1099000000000108",
     "name" : "folio_plugin-find-import-profile",
@@ -1268,7 +1268,7 @@
     "replaces" : [ "mod-data-import-converter-storage" ]
   } ],
   "uiModuleDescriptors" : [ {
-    "id" : "folio_data-import-11.0.1099000000000418",
+    "id" : "folio_data-import-11.0.1099000000000429",
     "name" : "Data Import manager",
     "requires" : [ {
       "id" : "data-import",
